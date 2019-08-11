@@ -1,0 +1,24 @@
+{
+  "name": "unit11-bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edaniels2275/unit11-bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edaniels2275/unit11-bamazon/issues"
+  },
+  "homepage": "https://github.com/edaniels2275/unit11-bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^6.5.0",
+    "mysql": "^2.17.1"
+  }
+}
