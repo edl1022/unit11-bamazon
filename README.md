@@ -2,7 +2,7 @@
 
 *Note: To see a start-to-finish demo of this app, please open the appDemo.gif file in this repo.
 
-* APP DESCRIPTION
+APP DESCRIPTION
 
 * First, the app displays all items in the database on the screen, with ID and price listed for each item.
 
