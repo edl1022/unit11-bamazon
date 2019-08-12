@@ -24,9 +24,9 @@ APP DESCRIPTION
 
 * TECHNOLOGIES USED
 
-MySQL
-Node.js
-NPM
-Javascript
-Git
-ScreenToGif
+* MySQL
+* Node.js
+* NPM
+* Javascript
+* Git
+* ScreenToGif
