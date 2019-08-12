@@ -71,7 +71,7 @@ function buy() {
             if (parseInt(transaction.Amount) > itemQuantity) {
                 console.log("\nInsufficient inventory for your requested quantity. We have " +
                     itemQuantity + " in stock. Try again.\n");
-                start();
+                exit();
             }
             //If user buys less than is in stock, tells them transaction was succesful and lowers the amount
             //in stock by the user's quantity ordered.
