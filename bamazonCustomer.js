@@ -18,26 +18,9 @@ var connection = mysql.createConnection({
 //Connection to the mysql server and sql database.
 connection.connect(function(err) {
     if (err) throw err;
-    //Runs the start function after the connection is made to prompt the user.
-    start();
+    //Runs the buy function after the connection is made to prompt the user.
+    buy();
 });
-
-
-function start() {
-    console.log("\n-------------------" + "\nWelcome to Bamazon!\n" + "-------------------\n");
-    inquirer.prompt([{
-        name: "action",
-        type: "list",
-        choices: ["View products in store", "Exit"],
-        message: "What would you like to do?"
-    }]).then(function(action) {
-        if (action.action === "View products in store") {
-            buy();
-        } else if (action.action === "Exit") {
-            exit();
-        }
-    });
-};
 
 //Allows user to view and buy products.
 function buy() {
